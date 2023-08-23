@@ -1,9 +1,9 @@
 replicaCount: 1
 
 image:
-  repository: debajyotim/verizon
+  repository: debajyotim/poc
   tag: "latest"
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
 
 service:
   name: verizon
